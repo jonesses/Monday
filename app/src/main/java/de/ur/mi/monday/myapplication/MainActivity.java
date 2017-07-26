@@ -10,5 +10,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //hier fehlt was sehr wichtiges. Danke!  kl
+        //wichtigs Feature
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }
